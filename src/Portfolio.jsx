@@ -15,8 +15,8 @@ const C = {
   ],
   resumeUrl: "/ShreyaPramanik_resumeDS.pdf",
   links: {
-    github: "https://github.com/shreyapramanik",       // ← replace with your actual GitHub URL
-    linkedin: "https://linkedin.com/in/shreyapramanik", // ← replace with your actual LinkedIn URL
+    github: "https://github.com/Shreya-bristi",       // ← replace with your actual GitHub URL
+    linkedin: "https://www.linkedin.com/in/shreyabristi20/", // ← replace with your actual LinkedIn URL
     email: "shreyapramanik0808@gmail.com",
   },
   stats: [
