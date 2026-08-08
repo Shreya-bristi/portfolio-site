@@ -1,8 +1,8 @@
-# Shreya Pramanik — Portfolio
+# My Portfolio Website
 
 Personal portfolio site built with React + Vite.
 
-## Quick Start
+## Installations
 
 ```bash
 npm install
@@ -11,7 +11,7 @@ npm run dev
 
 Opens at `http://localhost:5173`
 
-## Deploy to Vercel (free)
+## Deployment  to Vercel (free)
 
 1. Push this repo to GitHub
 2. Go to [vercel.com](https://vercel.com) → Sign in with GitHub
