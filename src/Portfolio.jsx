@@ -12,7 +12,7 @@ const C = {
     "At HSBC, I built ensemble demand forecasting models (XGBoost, LSTM, Prophet) for call and chat channels across Malaysia, Hong Kong, and Singapore contact centers, achieving 80\u201386% accuracy. I also built Excel and Power BI dashboard-based KPI reporting to surface operational trends and inform staffing decisions. My project work spans end-to-end ETL pipelines using SQL queries, hospital financial stress-testing with SHAP interpretability, multi-modal EEG classification, and large-scale text mining, focused on translating complex data into actionable recommendations for cross-functional stakeholders.",
   ],
   heroPills: ["Python", "SQL", "R", "Power BI", "Tableau", "PyTorch", "TensorFlow", "LLM"],
-  resumeUrl: "/ShreyaPramanik_DEresume.pdf",
+  resumeUrl: "/ShreyaPramanik_CV.pdf",
   links: {
     github: "https://github.com/Shreya-bristi",
     linkedin: "https://www.linkedin.com/in/shreyabristi20/",
