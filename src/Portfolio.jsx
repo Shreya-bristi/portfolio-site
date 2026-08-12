@@ -10,6 +10,7 @@ const C = {
   bio: [
     "I am a Data Science and AI enthusiast, currently finishing my Master's in Statistics from the University of Minnesota. With 3+ years of hands-on experience through industry roles and research projects, I have developed solutions in demand forecasting, predictive modeling, healthcare analytics, NLP, and LLM-powered applications.",
     "At HSBC, I built Power BI dashboards and ensemble forecasting models (XGBoost, LSTM, Prophet) across 5+ APAC contact centers, achieving 80\u201386% accuracy for real-time staffing decisions. Since then, I've developed RAG pipelines with LangChain, ChromaDB, and LangSmith, built LLM-powered clinical tools using Google Gemini on Streamlit Cloud, and trained multi-modal EEG classifiers across 17K+ patient recordings. My work spans the full data lifecycle: star schema design, complex SQL, feature engineering, deep learning, prompt optimization, and production guardrails.",
+  ],
   heroPills: ["Python", "SQL", "R", "Power BI", "PyTorch", "TensorFlow", "LangChain", "Claude Code"],
   resumeUrl: "/ShreyaPramanik_DEresume.pdf",
   links: {
