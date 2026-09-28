@@ -8,9 +8,20 @@ const C = {
   roles: ["Data Scientist", "Data Analyst", "Data Engineer", "Business Intelligence Analyst", "Power BI Developer", "Statistician"],
   tagline: "Building ML pipelines and analytics systems that turn messy data into business-critical decisions.",
   bio: [
-    "I am a Data Science and AI enthusiast, currently finishing my Master's in Statistics from the University of Minnesota. With 3+ years of hands-on experience through industry roles and research projects, I have developed solutions in demand forecasting, predictive modeling, healthcare analytics, NLP, and LLM-powered applications.",
-    "At HSBC, I built Power BI dashboards and ensemble forecasting models (XGBoost, LSTM, Prophet) across 5+ APAC contact centers, achieving 80\u201386% accuracy for real-time staffing decisions. Since then, I've developed RAG pipelines with LangChain, ChromaDB, and LangSmith, built LLM-powered clinical tools using Google Gemini on Streamlit Cloud, and trained multi-modal EEG classifiers across 17K+ patient recordings. My work spans the full data lifecycle: star schema design, complex SQL, feature engineering, deep learning, prompt optimization, and production guardrails.",
-  ],
+  "I’m a statistician who somehow keeps ending up in AI systems, SQL queries, production pipelines, and questions that end with “okay, but what breaks when this meets the real world?”",
+
+  "Most recently, that turned into a passenger-rights AI assistant. A unified chatbot seemed like an easy problem until I realized, the answer can change with one tiny detail; the departure airport, governing law, airline policy, live flight status. So, I started building the system around the problem and jurisdiction routing, RAG, PostgreSQL, FastAPI, Docker, AWS EKS, monitoring followed as the system grew. Somewhere along the way, I realized I really enjoyed figuring out what combination of statistics, software, data, and AI could make a system genuinely trustworthy.",
+
+  "Before all the LLMs, there was Statistics and optimization. At HSBC, I worked with large customer-contact datasets, built SQL-driven KPI reporting, and developed ensemble models to forecast APAC chat and call volumes for workforce staffing decisions.",
+
+  "Since then, I have worked through a slightly chaotic collection of problems: E-commerce funnels, hospital financial shocks, EEG spectrograms, RAG systems, diffusion models, and production AI infrastructure.",
+
+  "I’ve finished my M.S. in Statistics at the University of Minnesota, so underneath all the AI tooling, I still care a little too much about distributions, A/B testing, and whether the number on the screen actually means what I think it means.",
+
+  "And when I’m not doing that? I’ll probably be watching F1, get hooked on watching Soccer games, revisiting the Messi–Ronaldo argument that somehow determines my favourite is No. 9. Going on bike rides or cooking a recipe where the ingredient list is treated more like a suggestion.",
+
+  "Once something catches my curiosity, I learn it fast and usually end up building something with it.",
+],
   heroPills: ["Python", "SQL", "R", "Power BI", "PyTorch", "TensorFlow", "LangChain", "Claude Code"],
   resumeUrl: "/ShreyaPramanik_CV.pdf",
   links: {
