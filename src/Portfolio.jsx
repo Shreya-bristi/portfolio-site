@@ -22,7 +22,7 @@ const C = {
 
   "Once something catches my curiosity, I learn it fast and usually end up building something with it.",
 ],
-  heroPills: ["Python", "SQL", "R", "Power BI", "PyTorch", "TensorFlow", "LangChain", "Claude Code"],
+  heroPills: ["Python", "SQL", "R", "Power BI", "PyTorch", "RAG", "LangChain", "AWS"],
   resumeUrl: "/ShreyaPramanik_CV.pdf",
   links: {
     github: "https://github.com/Shreya-bristi",
