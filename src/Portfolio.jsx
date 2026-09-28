@@ -306,7 +306,7 @@ export default function Portfolio() {
             </p>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: 48, alignItems: "center" }}>
+          <div style={{ maxWidth: 900, margin: "0 auto" }}>
             {/* Left: Flickering greeting + English name + bio */}
             <div>
               {/* Flickering Hello World in multiple languages */}
@@ -326,7 +326,19 @@ export default function Portfolio() {
               </h3>
               {/* Bio */}
               {C.bio.map((p, i) => (
-                <p key={i} style={{ fontSize: 15, lineHeight: 1.75, color: "var(--t2)", marginBottom: 14, maxWidth: 600, textAlign: "justify" }}>{p}</p>
+                <p
+                  key={i}
+                  style={{
+                    fontSize: 15,
+                    lineHeight: 1.6,
+                    color: "var(--t2)",
+                    marginBottom: 10,
+                    maxWidth: "100%",
+                    textAlign: "left"
+                  }}
+                >
+                  {p}
+                </p>
               ))}
               {/* View Projects button */}
               <button onClick={() => go("projects")} style={{
