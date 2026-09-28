@@ -306,7 +306,7 @@ export default function Portfolio() {
             </p>
           </div>
 
-          <div style={{ maxWidth: 900, margin: "0 auto" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) 300px", gap: 36, alignItems: "start" }}>
             {/* Left: Flickering greeting + English name + bio */}
             <div>
               {/* Flickering Hello World in multiple languages */}
@@ -351,7 +351,7 @@ export default function Portfolio() {
             </div>
 
             {/* Right: Profile image placeholder */}
-            <img src="/shreya.jpg" alt="Shreya Pramanik" style={{ width: 320, height: 320, borderRadius: "50%", objectFit: "cover", border: "3px solid var(--brd)", flexShrink: 0, boxShadow: "0 0 40px var(--glow)" }} />
+            <img src="/shreya.jpg" alt="Shreya Pramanik" style={{ width: 280, height: 280, borderRadius: "50%", objectFit: "cover", border: "3px solid var(--brd)", flexShrink: 0, boxShadow: "0 0 40px var(--glow)" }} />
           </div>
         </div>
       </Reveal>
