@@ -306,7 +306,7 @@ export default function Portfolio() {
             </p>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) 300px", gap: 36, alignItems: "start" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) 300px", gap: 36, alignItems: "center" }}>
             {/* Left: Flickering greeting + English name + bio */}
             <div>
               {/* Flickering Hello World in multiple languages */}
