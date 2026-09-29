@@ -34,7 +34,7 @@ const C = {
     { value: "2+", label: "Years Experience", sub: "HSBC, UMN research and teaching", icon: "work" },
     { value: "10+", label: "Projects", sub: "RAG, forecasting, deep learning, BI", icon: "code" },
     { value: "100K+", label: "Records Modeled", sub: "SQL, Python, and Power BI pipelines", icon: "chart" },
-    { value: "3", label: "Statistics Degrees", sub: "UMN, IIT Kanpur, Presidency", icon: "edu" },
+    { value: "1st", label: "Hackathon Winner", sub: "HeatMap Hackathon 2026", icon: "trophy" },
   ],
   skills: [
     { category: "Data Science & Data Analytics", icon: "code", desc: "Statistical analysis, data visualization, optimization and decision science, and advanced machine learning.", items: ["Python", "R", "SQL", "Power BI", "Tableau", "SAS", "Pandas", "NumPy", "Matplotlib", "Seaborn", "SciPy", "Sklearn", "scikit-learn", "plotly", "ggplot2", "Shiny", "Excel", "MATLAB", "MINITAB"] },
