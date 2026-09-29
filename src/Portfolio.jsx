@@ -363,7 +363,7 @@ export default function Portfolio() {
         <div style={{ maxWidth: 1320, margin: "0 auto", padding: "0 24px 20px" }}>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(220px,1fr))", gap: 16 }}>
             {C.stats.map((s, i) => {
-              const Icon = s.icon === "work" ? Briefcase : s.icon === "code" ? Code2 : s.icon === "chart" ? BarChart3 : GraduationCap;
+              const Icon = s.icon === "work" ? Briefcase : s.icon === "code" ? Code2 : s.icon === "chart" ? BarChart3 : s.icon === "trophy" ? Trophy : GraduationCap;
               return (
                 <div key={i} style={{ padding: "22px 20px", borderRadius: 16, background: "linear-gradient(135deg, rgba(20,184,166,.06), rgba(129,140,248,.06))", border: "1px solid var(--brd)", display: "flex", alignItems: "center", gap: 16, transition: "border-color .3s, transform .3s" }}
                   onMouseEnter={e => { e.currentTarget.style.borderColor = "rgba(20,184,166,.3)"; e.currentTarget.style.transform = "translateY(-2px)"; }}
