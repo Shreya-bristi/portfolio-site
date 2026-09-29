@@ -37,8 +37,8 @@ const C = {
   ],
   skills: [
     { category: "Data Science & Data Analytics", icon: "code", desc: "Statistical analysis, data visualization, optimization and decision science, and advanced machine learning.", items: ["Python", "R", "SQL", "Power BI", "Tableau", "SAS", "Pandas", "NumPy", "Matplotlib", "Seaborn", "SciPy", "Sklearn", "ggplot2", "Shiny", "Excel", "MATLAB", "MINITAB"] },
-    { category: "AI & Deep Learning", icon: "brain", desc: "Deep learning, natural language processing, computer vision, and large language models.", items: ["TensorFlow", "PyTorch", "Keras", "OpenCV", "NLTK", "Scikit-learn", "LangChain", "LangSmith", "RAG", "ChromaDB", "Hugging Face", "Groq", "Prompt Engineering", "Diffusion Models"] },
-    { category: "Cloud & DevOps", icon: "cloud", desc: "Database management, CI/CD pipelines, workflow automation, and cloud infrastructure.", items: ["MySQL", "PostgreSQL", "AWS", "Azure", "FastAPI", "Git", "Docker", "Kubernetes", "Prometheus", "Grafana", "GitHub Actions", "Streamlit", "n8n"] },
+    { category: "AI & Deep Learning", icon: "brain", desc: "Deep learning, natural language processing, computer vision, and large language models.", items: ["PyTorch", "OpenCV", "NLTK", "Scikit-learn", "LangChain", "LangSmith", "RAG", "PostgreSQL", "pgvector", "ChromaDB", "Hugging Face", "LLM evaluation", "Groq"] },
+    { category: "Cloud & DevOps", icon: "cloud", desc: "Database management, CI/CD pipelines, workflow automation, and cloud infrastructure.", items: ["MySQL", "AWS", "Terraform", "Azure", "FastAPI", "Git", "Docker", "Kubernetes", "Prometheus", "Grafana", "GitHub Actions", "Streamlit", "n8n"] },
     { category: "Statistics", icon: "chart", desc: "Experimental design, probabilistic modeling, causal reasoning, and applied statistical inference.", items: ["Bayesian Analysis", "Time Series", "Advanced Regression Analysis", "Hypothesis Testing", "A/B Testing", "Design of Experiment", "Linear Models", "Stochastic Processes", "Causal Inference", "SPSS"] },
   ],
   experience: [
