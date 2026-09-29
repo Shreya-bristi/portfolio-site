@@ -347,7 +347,7 @@ export default function Portfolio() {
                 border: "none", padding: "11px 22px", borderRadius: 10, fontSize: 13.5, fontWeight: 600,
                 cursor: "pointer", display: "inline-flex", alignItems: "center", gap: 7,
               }}>
-                <Code2 size={14} /> View Projects
+                 View Projects <ChevronRight size={15} />
               </button>
             </div>
 
