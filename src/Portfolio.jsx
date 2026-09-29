@@ -31,9 +31,10 @@ const C = {
     phone: "9522455379",
   },
   stats: [
-    { value: "2+", label: "Years Experience" },
-    { value: "10+", label: "Projects" },
-    { value: "100K+", label: "Records Modeled" },
+    { value: "2+", label: "Years Experience", sub: "HSBC, UMN research and teaching", icon: "work" },
+    { value: "10+", label: "Projects", sub: "RAG, forecasting, deep learning, BI", icon: "code" },
+    { value: "100K+", label: "Records Modeled", sub: "SQL, Python, and Power BI pipelines", icon: "chart" },
+    { value: "3", label: "Statistics Degrees", sub: "UMN, IIT Kanpur, Presidency", icon: "edu" },
   ],
   skills: [
     { category: "Data Science & Data Analytics", icon: "code", desc: "Statistical analysis, data visualization, optimization and decision science, and advanced machine learning.", items: ["Python", "R", "SQL", "Power BI", "Tableau", "SAS", "Pandas", "NumPy", "Matplotlib", "Seaborn", "SciPy", "Sklearn", "scikit-learn", "plotly", "ggplot2", "Shiny", "Excel", "MATLAB", "MINITAB"] },
@@ -296,7 +297,7 @@ export default function Portfolio() {
           ABOUT ME — Bengali name + English name + bio + image
          ═══════════════════════════════════════════════════ */}
       <Reveal id="about" from="left">
-        <div style={{ maxWidth: 1320, margin: "0 auto", padding: "92px 24px" }}>
+        <div style={{ maxWidth: 1320, margin: "0 auto", padding: "92px 24px 40px" }}>
           {/* Section header */}
           <div style={{ textAlign: "center", marginBottom: 48 }}>
             <h2 style={{ fontSize: "clamp(28px,4vw,44px)", fontWeight: 800, letterSpacing: "-.03em", background: "linear-gradient(135deg,var(--a1),var(--a2))", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text", marginBottom: 8 }}>
@@ -359,21 +360,33 @@ export default function Portfolio() {
 
       {/* ═══ STATS ═══ */}
       <Reveal id="stats-section" from="right">
-        <div style={{ maxWidth: 1320, margin: "0 auto", padding: "0 24px 80px" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(140px,1fr))", gap: 14 }}>
-            {C.stats.map((s, i) => (
-              <div key={i} style={{ padding: "18px 12px", borderRadius: 14, background: "var(--card)", border: "1px solid var(--brd)", textAlign: "center" }}>
-                <div style={{ fontSize: 24, fontWeight: 800, letterSpacing: "-.03em", background: "linear-gradient(135deg,var(--a1),var(--a2))", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>{s.value}</div>
-                <div style={{ fontSize: 10.5, color: "var(--t3)", marginTop: 3, fontWeight: 600, textTransform: "uppercase", letterSpacing: ".07em" }}>{s.label}</div>
-              </div>
-            ))}
+        <div style={{ maxWidth: 1320, margin: "0 auto", padding: "0 24px 20px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(220px,1fr))", gap: 16 }}>
+            {C.stats.map((s, i) => {
+              const Icon = s.icon === "work" ? Briefcase : s.icon === "code" ? Code2 : s.icon === "chart" ? BarChart3 : GraduationCap;
+              return (
+                <div key={i} style={{ padding: "22px 20px", borderRadius: 16, background: "linear-gradient(135deg, rgba(20,184,166,.06), rgba(129,140,248,.06))", border: "1px solid var(--brd)", display: "flex", alignItems: "center", gap: 16, transition: "border-color .3s, transform .3s" }}
+                  onMouseEnter={e => { e.currentTarget.style.borderColor = "rgba(20,184,166,.3)"; e.currentTarget.style.transform = "translateY(-2px)"; }}
+                  onMouseLeave={e => { e.currentTarget.style.borderColor = "var(--brd)"; e.currentTarget.style.transform = ""; }}>
+                  <div style={{ width: 46, height: 46, borderRadius: 12, display: "flex", alignItems: "center", justifyContent: "center", background: "var(--s2)", flexShrink: 0 }}>
+                    <Icon size={20} style={{ color: "var(--a1)" }} />
+                  </div>
+                  <div>
+                    <div style={{ fontSize: 28, fontWeight: 800, letterSpacing: "-.03em", lineHeight: 1, background: "linear-gradient(135deg,var(--a1),var(--a2))", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>{s.value}</div>
+                    <div style={{ fontSize: 11, color: "var(--t1)", marginTop: 6, fontWeight: 700, textTransform: "uppercase", letterSpacing: ".07em" }}>{s.label}</div>
+                    <div style={{ fontSize: 12, color: "var(--t3)", marginTop: 3 }}>{s.sub}</div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </Reveal>
+      
 
       {/* ═══ SKILLS ═══ */}
       <Reveal id="skills" from="left">
-        <div style={{ maxWidth: 1320, margin: "0 auto", padding: "88px 24px" }}>
+        <div style={{ maxWidth: 1320, margin: "0 auto", padding: "56px 24px 88px" }}>
           <SL t="Skills" />
           <H2>Technical toolkit</H2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(2,1fr)", gap: 16 }}>
