@@ -60,9 +60,9 @@ const C = {
     { title: "Auto Insurance Claim Prediction", period: "Oct – Dec 2024", desc: "R-based modeling for 60K-record insurance claim-cost prediction (6.8% non-zero claims), comparing Logit+Gamma, Tweedie, and XGBoost.", impact: "Normalized Gini index of 0.45; presented stakeholder-ready risk drivers including exposure, vehicle value, and engineered ratio features.", tech: ["R", "XGBoost", "Tweedie", "Cross-Validation"], github: "", featured: false, emoji: "🚗" },
   ],
   education: [
-    { degree: "Master of Statistics", school: "University of Minnesota", location: "Minneapolis, MN", duration: "Sep 2023 – Aug 2026", courses: ["Data Mining", "Computer Vision", "Regression Analysis", "Advanced Probability", "Bayesian Analysis"] },
-    { degree: "Master of Statistics", school: "Indian Institute of Technology Kanpur", location: "Kanpur, India", duration: "Sep 2020 – Jun 2022", courses: ["Statistical Simulation", "Time Series Analysis", "Design of Experiment", "Stochastic Processes"] },
-    { degree: "Bachelor of Statistics", school: "Presidency University", location: "Kolkata, India", duration: "Jul 2017 – Jul 2020", courses: [] },
+    { degree: "Master of Statistics", school: "University of Minnesota", location: "Minneapolis, MN", duration: "Sep 2023 – Aug 2026", courses: ["Data Mining", "Signal Processing", "Regression Analysis", "Design of Experiment", "Advanced Probability", "Bayesian Analysis", "Optimization", "Markov Chain", "Linear Models"] },
+    { degree: "Master of Statistics", school: "Indian Institute of Technology Kanpur", location: "Kanpur, India", duration: "Sep 2020 – Jun 2022", courses: ["Statistical Simulation", "Time Series Analysis", "Multivariate Analysis", "Stochastic Processes", "Nonparametric regtession"] },
+    { degree: "Bachelor of Statistics", school: "Presidency University", location: "Kolkata, India", duration: "Jul 2017 – Jul 2020", courses: ["Statistical Inference", "Hypothesis Testing", "Quality Control", "Population Statistics", "Real Analysis"] },
   ],
   achievements: [
     { title: "HeatMap Hackathon 2026 — Winner", desc: "BData Inc. × American Burn Association × MN Healthcare — built a geospatial solution translating burn injury data into equitable care access analysis, selected for real-world strategic impact.", icon: "trophy" },
