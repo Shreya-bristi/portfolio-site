@@ -27,7 +27,7 @@ const C = {
   links: {
     github: "https://github.com/Shreya-bristi",
     linkedin: "https://www.linkedin.com/in/shreyabristi20/",
-    email: "prama018@umn.edu",
+    email: "shreyapramanik0808@gmail.com",
     phone: "9522455379",
   },
   stats: [
